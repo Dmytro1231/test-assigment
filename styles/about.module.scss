@@ -1,0 +1,29 @@
+.container {
+  max-width: 1336px;
+  max-height: 582px;
+  margin: 0 auto;
+
+  .title {
+    font-weight: bold;
+    font-size: 34px;
+    letter-spacing: -0.68px;
+    color: #3d3d3d;
+    margin-bottom: 78px;
+    margin-top: 100px;
+  }
+  .subtitle {
+    letter-spacing: 0.4px;
+    color: #3d3d3d;
+    font-size: 20px;
+    font-weight: 300;
+    display: grid;
+    span {
+      margin-top: 50px;
+    }
+  }
+}
+@media screen and (max-width: 480px) {
+  .container {
+    text-align: center;
+  }
+}

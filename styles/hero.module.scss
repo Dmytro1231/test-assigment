@@ -1,0 +1,63 @@
+.container {
+  background: transparent url("../assets/bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+
+  .wrapper {
+    width: 520px;
+    text-align: right;
+    margin-left: 33%;
+    padding-top: 180px;
+  }
+
+  .title {
+    font-size: clamp(20px, 50px, 50px);
+    letter-spacing: 3.5px;
+    color: #fdd000;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .subtitle {
+    text-align: right;
+    font-size: 30px;
+    letter-spacing: 0.6px;
+    color: #dfdfdf;
+    max-width: 550px;
+    font-weight: 300;
+    span {
+      display: grid;
+    }
+  }
+  .calendarWrapper {
+    background-color: #272829;
+    position: absolute;
+    right: 0;
+    top: 150px;
+    width: 700px;
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper {
+    margin-left: 0 !important;
+    padding-top: 0 !important;
+    position: relative;
+    text-align: center !important;
+    width: 100% !important;
+    .title {
+      font-size: 20px;
+      padding-top: 15px;
+    }
+    .subtitle {
+      font-size: 15px;
+      text-align: center;
+    }
+    .calendarWrapper {
+      width: 100%;
+    }
+  }
+}
