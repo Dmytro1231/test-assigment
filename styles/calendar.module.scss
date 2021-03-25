@@ -88,6 +88,9 @@ body {
   }
 }
 @media screen and (max-width: 480px) {
+  .calendarWrapper {
+    width: 100%;
+  }
   .calendar {
     margin-left: 0;
     margin-top: 100px;

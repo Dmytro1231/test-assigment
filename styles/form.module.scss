@@ -64,3 +64,16 @@
     opacity: 1;
   }
 }
+@media screen and (max-width: 480px) {
+  .block__form {
+    width: 280px !important;
+    input {
+      width: 130px !important;
+      margin-right: 10px !important;
+      &::placeholder {
+        font-size: 15px !important;
+        padding-left: 2px !important;
+      }
+    }
+  }
+}
