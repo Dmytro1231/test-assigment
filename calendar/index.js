@@ -31,7 +31,7 @@ export default function Calendar({ value, onChange }) {
                   <div
                     key={idx}
                     className={styles.day}
-                    onClick={() => !beforeToday(day) && onChange(day)}
+                    onClick={() => beforeToday(day) && onChange(day)}
                   >
                     <div className={dayStyles(day, value)} onClick={openModal}>
                       {day.format("D").toString()}

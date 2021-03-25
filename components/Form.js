@@ -3,7 +3,6 @@ import styles from "../styles/form.module.scss";
 import { FaTimes } from "react-icons/fa";
 
 const Form = ({ showModal, setShowModal, value }) => {
-  console.log(value._d);
   return (
     <>
       {showModal ? (

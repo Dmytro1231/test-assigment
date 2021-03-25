@@ -16,7 +16,7 @@ export default function Home() {
             We encourage you to book your appointment online.
             <span>This will save you time.</span>
           </p>
-            <Calendar value={value} onChange={setValue} />   
+          <Calendar value={value} onChange={setValue} />
         </div>
       </div>
     </>
