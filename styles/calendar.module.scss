@@ -1,3 +1,11 @@
+.calendarWrapper {
+  background-color: #272829;
+  position: absolute;
+  right: 0;
+  top: 150px;
+  width: 700px;
+  height: 100vh;
+}
 .calendar {
   box-sizing: border-box;
   font-size: 1rem;
@@ -37,7 +45,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    z-index: 1;
     text-align: center;
     div {
       color: #dfdfdf;

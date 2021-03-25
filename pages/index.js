@@ -16,9 +16,7 @@ export default function Home() {
             We encourage you to book your appointment online.
             <span>This will save you time.</span>
           </p>
-          <div className={styles.calendarWrapper}>
-            <Calendar value={value} onChange={setValue} />
-          </div>
+            <Calendar value={value} onChange={setValue} />   
         </div>
       </div>
     </>
